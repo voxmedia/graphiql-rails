@@ -9,6 +9,8 @@ module GraphiQL
 
       attr_accessor :query_params, :initial_query, :csrf
 
+      GRAPHIQL_VERSION = '0.11.11'
+
       DEFAULT_HEADERS = {
         'Content-Type' => ->(_) { 'application/json' },
       }
